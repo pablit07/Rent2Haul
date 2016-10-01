@@ -1,0 +1,88 @@
+.sf-menu ul {
+	position:		absolute;
+	width:			253px; /* left offset of submenus need to match (see below) */
+	background:none;
+	border-top:1px solid #191f24;
+	padding: 0 0 0px 0px;
+	z-index:200;
+}
+
+.sf-menu ul li {
+	width:			100%;
+	background:none;
+	margin:0;
+	border:0 none;
+	
+}
+.sf-menu ul li:hover {
+	background:none;
+	margin:0;
+	border:0 none;
+}
+.sf-menu li {
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			-1px;
+	top:			55px; /* match top ul list item height */
+	z-index:		99;
+	padding-top: 0px;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	background:none;
+	border:none;
+	padding:0;
+	width:176px;
+	padding: 0 0 0px 0px;
+	margin:0;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			176px; /* match ul width */
+	top:			0px;
+}
+
+
+
+.sf-menu li:hover li a, 
+.sf-menu li.sfHover li a {
+	display:block;
+	color:#6c8396;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:25px;
+	padding:0px 0 0px 9px;
+	text-align:left;
+	background:#273139;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#273139), to(#273139));
+	background: -moz-linear-gradient(#273139, #273139);
+	background: linear-gradient(#273139, #273139);
+	-pie-background: linear-gradient(#273139, #273139);
+	background-image: -o-linear-gradient(#273139, #273139);
+	border-top:none;
+	border-bottom:1px solid #191f24;
+	border-right:1px solid #191f24;
+	border-left:1px solid #191f24;
+	text-transform:none;
+	font-weight:normal;
+}
+.sf-menu li li a:hover, .sf-menu li li.sfHover a {display:block; border-right:1px solid #191f24; border-left:1px solid #191f24; border-bottom:1px solid #191f24; border-top:none; color:#fcfcfc;
+	background:#242c34;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#273139), to(#21282f));
+	background: -moz-linear-gradient(#273139, #21282f);
+	background: linear-gradient(#273139, #21282f);
+	-pie-background: linear-gradient(#273139, #21282f);
+	background-image: -o-linear-gradient(#273139, #21282f);}
+.sf-menu li li li {
+	background:none;
+	text-align:left;
+}
+
+.sf-menu li li.sfHover li a {color:#fcfcfc; background:none; padding:6px 0 6px 19px; font-size:12px; line-height:16px;}
+.sf-menu li li.sfHover li a:hover {color:#f9f9f9; background:none;}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	outline:		0;
+}

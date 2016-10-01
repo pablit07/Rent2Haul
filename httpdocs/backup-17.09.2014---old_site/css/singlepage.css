@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px; outline:none; text-decoration:none;}
+body{ padding:0px; margin:0px; font:normal 12px Arial, Helvetica, sans-serif; color:#4f4f4f; font-style:normal; font-weight:normal; background:url(../images/fullbg.png) repeat-x #42474b;}
+img{ border:none;}
+
+
+#mainArtArea{ width:952px; margin:0 auto;}
+.mainartAreaSub{ width:952px; float:left; margin:30px 0 0 0;}
+.mainartAreaSub h1{ font:normal 30px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#FFF;  background:url(../images/dev1.jpg) repeat-x bottom;
+padding-bottom:5px; margin-bottom:18px;}
+.mainContentArea{ width:924px; float:left; background:#f0f0f0; padding:17px 14px 17px 14px;}
+.leftContentArea{ width:624px; float:left;}
+.singlePageTitle{ width:624px; float:left; border-bottom:1px solid #d0d0d0; padding-bottom:13px;}
+.articlePic{ width:86px; float:left;}
+.articlePic img{ width:71px; height:66px; float:left;}
+.singlePageTitle h2{ font:normal 22px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#1e1f20;}
+.singlePageTitle span{ font:normal 13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#6d6d6d;}
+.pageContentSec{ width:624px; float:left; margin:12px 0 0 0;}
+/*.pageContentSec p{ font:normal 12px/16px Arial, Helvetica, sans-serif; color:#4f4f4f; text-align:justify; padding-bottom:17px;}*/
+/*.pageContentSec p.newbrdr{ font:normal 12px/16px Arial, Helvetica, sans-serif; color:#4f4f4f; text-align:justify; padding-bottom:17px; border-bottom:1px solid #d0d0d0; margin-bottom:15px;}*/
+.new-border{float:left; margin-top:20px; width:624px; height:20px; border-top:1px solid #d0d0d0;}
+.pageContentSec h3{ font:normal 13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#000; border-bottom:1px solid #d0d0d0; padding-bottom:5px;
+margin-bottom:10px;}
+
+
+
+
+
+.rightContentArea{width:264px; float:right;}
+.quoteArea{width:238px; float:left; background:#171717; padding:12px 13px 12px 13px; margin-bottom:5px;}
+.quoteArea h3{ font:normal 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#FFF; border-bottom:1px solid #333; padding-bottom:3px; margin-bottom:10px;}
+.quoteArea p{ font:normal 12px Arial, Helvetica, sans-serif; color:#808080; padding-bottom:15px;}
+.fieldArea{ width:238px; float:left;}
+.field1{ width:238px; float:left; margin:0 0 5px 0; background:url(../images/fieldBox.jpg) no-repeat; height:34px;}
+.field1 input{ width:217px; background:none; border:none; padding:8px 0 0 10px;}
+.customEst{width:118px; float:left; margin:5px 0 0 0;}
+.radioArea{ width:10px; height:10px; float:left; margin-right:5px;}
+.calenderArea{width:238px; float:left; margin-bottom:5px;}
+.calenderField{width:193px; height:34px; float:left;  background:url(../images/calender-field.jpg) no-repeat; height:34px;}
+.calenderField input{ width:172px; float:left; padding:8px 0 0 10px; border:none; background:none;}
+.calIconarea{width:35px; height:31px; float:left; margin:0 0 0 8px;}
+.bedroomfield{width:115px; height:34px; background:url(../images/dob-field.jpg) no-repeat; margin-right:7px; float:left;}
+.bedroomfield input{ width:95px; float:left;  padding:8px 0 0 10px; border:none; background:none;}
+.bedroomfield.budget{margin:0px;}
+.gobtnArea{ width:54px; float:left;}
+.gocolorbtn{width:54px; height:35px; float:left; text-align:center; font:normal 17px/35px Arial, Helvetica, sans-serif; color:#FFF; background:url(../images/go_bg.jpg) repeat-x; border:none; cursor:pointer;}
+.searchBtn{ width:84px; float:left; height:35px; }
+.searchcolor{width:84px; height:35px; float:left; text-align:center; font:normal 17px/35px Arial, Helvetica, sans-serif; color:#FFF; background:url(../images/go_bg.jpg) repeat-x; border:none; cursor:pointer;}
+
+.recentPostArea{ width:264px; float:left;}
+.recentPostArea h4{ font:normal 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#000; border-bottom:1px solid #cfcfcf; padding-bottom:5px; margin-bottom:15px;}
+.recentPostArea ul{ padding:0px; margin:0px; list-style-type:none;}
+.recentPostArea ul li{ display:block;  background:url(../images/bulet.png) no-repeat 0 3px; padding-left:10px; border-bottom:1px solid #cfcfcf;
+padding-bottom:10px; margin-bottom:5px;}
+.recentPostArea ul li a{ font:normal 12px Arial, Helvetica, sans-serif; color:#333;  font:normal 12px Arial, Helvetica, sans-serif; color:#474747;}
+
+/*-----------------pagination------------------------------*/
+div.pagination {
+	padding: 3px;
+	margin: 3px 3px 3px 0px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #0b59b6;
+	
+	text-decoration: none; /* no underline */
+	color: #000;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #0b59b6;
+
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #0b59b6;
+		
+		font-weight: bold;
+		background-color: #0b59b6;
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #0b59b6;
+		color: #DDD;
+	}
+
+
+
+
+
+
+
+
